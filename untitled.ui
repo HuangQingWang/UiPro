@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1776</width>
-    <height>955</height>
+    <height>1042</height>
    </rect>
   </property>
   <property name="cursor">
@@ -325,6 +325,19 @@
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:72pt; color:#5500ff;&quot;&gt;0&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>940</y>
+      <width>1201</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:36pt; color:#5500ff;&quot;&gt;基于云端人工智能技术的物体识别计数系统&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
    <zorder>layoutWidget</zorder>
    <zorder>layoutWidget</zorder>
    <zorder>layoutWidget</zorder>
@@ -333,6 +346,7 @@
    <zorder>textBrowser</zorder>
    <zorder>label_3</zorder>
    <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

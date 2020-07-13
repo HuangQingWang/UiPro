@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1776, 955)
+        MainWindow.resize(1776, 1042)
         MainWindow.setCursor(QtGui.QCursor(QtCore.Qt.ArrowCursor))
         MainWindow.setUnifiedTitleAndToolBarOnMac(False)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
@@ -167,6 +167,9 @@ class Ui_MainWindow(object):
         font.setPointSize(16)
         self.label_4.setFont(font)
         self.label_4.setObjectName("label_4")
+        self.label_5 = QtWidgets.QLabel(self.centralwidget)
+        self.label_5.setGeometry(QtCore.QRect(360, 940, 1201, 71))
+        self.label_5.setObjectName("label_5")
         self.layoutWidget.raise_()
         self.layoutWidget.raise_()
         self.layoutWidget.raise_()
@@ -175,6 +178,7 @@ class Ui_MainWindow(object):
         self.textBrowser.raise_()
         self.label_3.raise_()
         self.label_4.raise_()
+        self.label_5.raise_()
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
@@ -205,3 +209,4 @@ class Ui_MainWindow(object):
         self.pushButton_6.setText(_translate("MainWindow", "连接"))
         self.label_3.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" color:#5500ff;\">需要识别的物体的数量为：</span></p></body></html>"))
         self.label_4.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:72pt; color:#5500ff;\">0</span></p></body></html>"))
+        self.label_5.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:36pt; color:#5500ff;\">基于云端人工智能技术的物体识别计数系统</span></p></body></html>"))
